@@ -6,4 +6,5 @@
 4. Bottleneck — one or two sentences, estimated cost
 5. What is already a strength — one sentence
 6. Next 20 games — rules and drills, stop condition
-7. Caveats — no engine / sample size / mixed controls
+7. Engine — used or skipped; if used, ACPL and blunder counts from stats.engine
+8. Caveats — sample size / mixed controls / shallow search if engine on
