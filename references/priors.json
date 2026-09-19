@@ -1,0 +1,47 @@
+{
+  "180+0": {
+    "label": "3+0",
+    "median_think": 1.1,
+    "pct_lt2": 0.66,
+    "avg_ge10_per_game": 1.8,
+    "avg_ge15_per_game": 0.74,
+    "median_final_clock": 67,
+    "pct_final_lt10": 0.05,
+    "timeout_loss_rate": 0.01,
+    "source": "Hikaru Chess.com blitz Jul-Sep 2026, n=745"
+  },
+  "180+1": {
+    "label": "3+1 TT classic",
+    "median_think": 1.6,
+    "pct_lt2": 0.56,
+    "avg_ge10_per_game": 4.8,
+    "avg_ge15_per_game": 2.5,
+    "median_final_clock": 22,
+    "pct_final_lt10": 0.33,
+    "timeout_loss_rate": 0.066,
+    "source": "TT top finishers Mar-Aug 2025, n=4283"
+  },
+  "180+2": {
+    "label": "3+2",
+    "median_think": 1.6,
+    "avg_ge10_per_game": 5.0,
+    "avg_ge15_per_game": 2.7,
+    "median_final_clock": 25,
+    "timeout_loss_rate": 0.05,
+    "source": "interpolated from 3+1 elite plus increment note; treat as soft"
+  },
+  "300+0": {
+    "label": "5+0 TT current",
+    "median_think": 1.6,
+    "pct_lt2": 0.55,
+    "avg_ge10_per_game": 6.0,
+    "avg_ge15_per_game": 3.3,
+    "avg_ge30_per_game": 0.8,
+    "median_final_clock": 61,
+    "pct_final_lt10": 0.17,
+    "timeout_loss_rate": 0.054,
+    "target_clock_move35": 60,
+    "target_clock_move45": 30,
+    "source": "TT top finishers Sep 2025-Sep 2026, n=3395"
+  }
+}
