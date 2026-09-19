@@ -19,6 +19,8 @@ def main() -> None:
     p.add_argument("--max", type=int, default=80)
     p.add_argument("--perf", default="blitz")
     p.add_argument("--outdir", required=True)
+    p.add_argument("--engine", default="auto")
+    p.add_argument("--engine-games", type=int, default=15)
     args = p.parse_args()
 
     outdir = Path(args.outdir)
@@ -43,6 +45,8 @@ def main() -> None:
         "--user", args.user,
         "--priors", str(DEFAULT_PRIORS),
         "--out", str(stats_path),
+        "--engine", args.engine,
+        "--engine-games", str(args.engine_games),
     ]
     subprocess.check_call(analyze)
     print(str(stats_path))
